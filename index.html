@@ -18,12 +18,13 @@
       referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/83861b6aa0.js" crossorigin="anonymous"></script>
 
     <title>My Portfolio</title>
   </head>
   <body>
     <header class="Header" id="Header">
-        <a class="my-logo" id="my-logo">
+        <a class="my-logo" id="my-logo" href="#">
            <h1 class="my-name">Inyambo</h1>
         </a>
 
@@ -35,5 +36,128 @@
           </ul>
         </nav>
     </header>
+
+    <section class="introduction" id="introduction">
+      <div class="main-part" id="main-part">
+        <h2 class="greeting" id="greeting">
+          I'm <span>Inyambo</span><br />
+          Glad to see you  
+        </h2>
+        <p class="paragraph" id="paragraph">
+          I’m a software developer! I can help you build a product , features or
+          website. Look through some of my work and projects! If you like what you
+          see and have a project you need to be coded, don’t hestiate to contact
+          me.
+        </p>
+        <a href="#" class="connect">LET'S CONNECT</a>
+      <ul class="icons-one">
+        <li>
+          <a href="#" class="icons">
+            <img
+              src="Socials/Twitter.png"
+              alt="Twitter logo"
+              class="rotate-icons"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#" class="icons">
+            <img
+              src="Socials/Linkedin.png"
+              alt="Linkedin logo"
+              class="rotate-icons"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#" class="icons">
+            <img
+              src="Socials/M.png"
+              alt="Microsoft logo"
+              class="rotate-icons"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#" class="icons">
+            <img
+              src="Socials/GitHub.png"
+              alt="Github logo"
+              class="rotate-icons"
+            />
+          </a>
+        </li>
+        <li>
+          <a href="#" class="icons">
+            <img
+              src="Socials/peacesign.png"
+              alt="Angelist logo"
+              class="rotate-icons"
+            />
+          </a>
+        </li>
+      </ul>
+      </div>
+    </section>
+
+    <section class="About" id="About">
+      <div class="col-1" id="col-1">
+          <img src="images/blake.jpg" alt="image-of-blake" class="about-img" />
+      </div>
+      <div class="col-2" id="col-2">
+          <h3 class="About-me" id="About-me">About me</h3>
+          <p class="paragraph2" id="paragraph2">
+            Hello! I’m a software developer! I can help you build a product , 
+            features or website. Look through some of my work and projects! 
+            If you like what you see and have a project you need to be coded, 
+            don’t hestiate to contact me.
+          </p>
+          <ul class="tab-titles">
+            <li class="tab-links active-link" onclick="opentab('skills')">Skills</li>
+            <li class="tab-links" onclick="opentab('Experience')">Experience</li>
+            <li class="tab-links" onclick="opentab('Education')">Education</li>
+          </ul>
+          <ul class="tab-contents active-tab" id="skills">
+            <li><span>Web Development</span><br>Web App Development</li>
+          </ul>
+          <ul class="tab-contents" id="Experience">
+            <li><span>2021 to current</span><br>Attending Bootcamp and creating solo projects interacting
+            with different people from all over the world.</li>
+          </ul>
+          <ul class="tab-contents" id="Education">
+            <li><span>College Certificate, Microverse and Odin Project</span><br>Certificate in Information
+            Systems and Programming at NIPA Lusaka/Zambia, Hodule 1 Training at Microverse Online BootCamp and Odin-Project Full-Stack Curriculum</li>
+          </ul>
+      </div>
+    </section>
+
+    <section>
+      <div id="services">
+          <div class="container">
+            <h1 class="sub-title">My Services</h1>
+            <div class="services-list">
+              <div>
+                  <i class="fa-solid fa-crop-simple"></i>
+                  <h4 class="serv-title">UI/UX Design</h4>
+                  <p class="serve-para">Certificate in Information
+                    Systems and Programming at NIPA Lusaka/Zambia, 
+                    Module 1 Training at Microverse Online BootCamp and Odin-Project Full-Stack Curriculum
+                  </p>
+                    <a href="#">Learn more</a>
+              </div>
+              <div>
+                  <i class="fa-solid fa-code"></i>
+                  <h4 class="serv-title">Web development</h4>
+                  <p class="serve-para">Certificate in Information
+                    Systems and Programming at NIPA Lusaka/Zambia, 
+                    Module 1 Training at Microverse Online BootCamp and Odin-Project Full-Stack Curriculum
+                  </p>
+                    <a href="#">Learn more</a>
+              </div>           
+            </div>
+          </div>
+      </div>    
+    </section>
+    <script src="index.js"></script>
   </body>
 </html>  
