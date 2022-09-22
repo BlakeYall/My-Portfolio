@@ -22,7 +22,7 @@ body {
 .navigation-links {
   display: flex-end;
   padding-right: 50px;
-  margin-right: 50px;
+  margin-right: 10px;
 }
 
 .my-name {
@@ -63,7 +63,7 @@ body {
 
 .greeting {
   color: #e20000;
-  margin-left: 200px;
+  margin-left: 110px;
   margin-top: 150px;
   font-size: 60px;
   font-family: 'Poppins', sans-serif;
@@ -76,7 +76,7 @@ body {
 
 .paragraph {
   font-size: 20px;
-  margin-left: 200px;
+  margin-left: 110px;
   color: #f0f0f0;
   max-width: 40%;
   padding-top: 20px;
@@ -85,7 +85,7 @@ body {
 
 .connect {
   font-size: 20px;
-  margin-left: 200px;
+  margin-left: 110px;
   color: #da0000;
   text-decoration: none;
   font-weight: 700px;
@@ -94,7 +94,7 @@ body {
 .icons-one {
   display: flex;
   list-style: none;
-  margin-left: 200px;
+  margin-left: 110px;
   gap: 15px;
   padding-top: 10px;
 } 
@@ -149,7 +149,7 @@ body {
   background: rgb(206, 0, 0);
   position: absolute;
   left: 0;
-  bottom: -275px;
+  bottom: -270px;
   transition: 0.5s;
 }
 
@@ -186,12 +186,12 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(30%, 1fr));
   grid-gap: 40px;
   margin-top: 50px;
-  margin-left: 350px;
-  margin-right: 350px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 .sub-title {
-  margin-left: 350px;
+  margin-left: 50px;
   font-size: 40px;
   font-family: 'Poppins', sans-serif;
   color: rgb(235, 235, 235);
@@ -240,3 +240,179 @@ body {
   background: #ff004f;
   transform: translateY(-10px);
 }
+
+#portfolio {
+  padding: 30px 0;
+}
+
+.work-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+
+.work {
+  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+}
+
+.work img {
+  width: 60%;
+  border-radius: 10px;
+  margin-left: 50px;
+  display: block;
+  margin-top: 50px;
+  transition: transform 0.5s;
+}
+
+.layer {
+  color: rgb(255, 253, 253);
+  width: 70%;
+  margin-left: 28.5px;
+  background: linear-gradient(rgba(0,0,0,0.6), #b81146);
+  border-radius: 10px;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  overflow: hidden;
+  height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+  font-size: 14px;
+  font-family: z'Poppins', sans-serif;
+  transition: height 0.5s;
+}
+
+.layer h2 {
+  font-weight: 500;
+  margin-bottom: 20px;
+  font-family: 'Poppins', sans-serif;
+}
+
+.layer a {
+  margin-top: 20px;
+  color: #ff004f;
+  font-size: 18px;
+  line-height: 60px;
+  text-decoration: none;
+  background: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.work:hover img {
+  transform: scale(1.1);
+
+}
+
+.work:hover .layer {
+  height: 100%;
+}
+
+.btn {
+  display: block;
+  margin: 50px auto;
+  width: fit-content;
+  border: 1px solid #ff004f;
+  border-radius: 6px;
+  padding: 14px 50px;
+  text-decoration: none;
+  color: #fff;
+  transition: background 0.5s;
+}
+
+.btn:hover {
+  background: #ff004f;
+}
+
+.contact-me {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #fff;
+  text-align: center;
+  margin-top: 80px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-paragraph {
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 100;
+  max-width: 700px;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ff004f;
+  text-align: center;
+  margin-top: -10px;
+  margin-bottom: 20px;
+}
+
+.contact-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#contact-name {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 90%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  outline: none;
+}
+
+#email {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  width: 90%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 20px;
+  color: #172b4d;
+  outline: none;
+}
+
+#message {
+  border: 1px solid #cfd8dc;
+  border-radius: 8px;
+  background: #fff;
+  padding: 15px;
+  margin-bottom: 15px;
+  min-height: 170px;
+  width: 90%;
+  font-family: 'Poppins', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #b3bac5;
+  outline: none;
+}
+
