@@ -1,6 +1,6 @@
 /* eslint-disable linebreak-style */
-const tablinks = document.getElementSByClassName('.tab-links');
-const tabcontents = document.getElementSByClassName('.tab-contents');
+const tablinks = document.getElementSByClassName('tab-links');
+const tabcontents = document.getElementSByClassName('tab-contents');
 // eslint-disable-next-line linebreak-style
 
 // eslint-disable-next-line no-unused-vars, linebreak-style
